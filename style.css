@@ -1,0 +1,41 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background: url(header.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+.buffer {
+  height: 155px;
+}
+
+.main {
+  color: white;
+  font-weight: 800px;
+}
+
+hr {
+  margin: 20px auto;
+  color: rgb(255, 80, 80);
+  border: 1px solid rgb(255, 80, 80);
+  border-radius: 50px;
+  max-width: 60px;
+  opacity: 1;  
+}
+
+.btn-danger {
+  height: 50px; 
+  width:175px;
+  border-radius: 300px;
+  background-color: rgb(255, 80, 80);
+  border-color: rgb(255, 80, 80);
+  transition: all 0.5s;
+  /* Put transition time here instead of in hover so it is smooth when removing mouse */
+}
+
+.btn-danger:hover {
+  transform: scale(1.1);  
+}
